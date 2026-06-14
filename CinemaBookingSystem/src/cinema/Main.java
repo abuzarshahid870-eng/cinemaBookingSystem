@@ -15,8 +15,6 @@ public class Main {
         MovieManager   movieManager   = new MovieManager();
         SeatManager    seatManager    = new SeatManager();
         BookingManager bookingManager = new BookingManager(seatManager);
-
-        // Launch on the Event Dispatch Thread
         SwingUtilities.invokeLater(() -> {
             try {
                 UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
