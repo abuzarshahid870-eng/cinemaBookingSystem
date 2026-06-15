@@ -49,7 +49,7 @@ public class LoginUI extends JFrame {
         gbc.gridx = 0; gbc.gridy = 0; gbc.gridwidth = 2;
         panel.add(title, gbc);
 
-        // Username
+        // UserName
         gbc.gridwidth = 1; gbc.gridy = 1; gbc.gridx = 0;
         JLabel userLabel = styledLabel("Username:");
         panel.add(userLabel, gbc);
