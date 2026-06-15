@@ -10,7 +10,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Shared managers (runtime state)
+
         UserManager    userManager    = new UserManager();
         MovieManager   movieManager   = new MovieManager();
         SeatManager    seatManager    = new SeatManager();
