@@ -5,7 +5,7 @@ public class Movie {
     private String title;
     private String genre;
     private int durationMinutes;
-    private String showtime; // e.g. "7:00 PM"
+    private String showtime; // e.g. "9:00 PM"
 
     public Movie(int id, String title, String genre, int durationMinutes, String showtime) {
         this.id = id;
