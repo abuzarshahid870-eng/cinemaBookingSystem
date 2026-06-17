@@ -1,5 +1,5 @@
 package cinema.model;
-
+//Booking
 public class Booking {
     private int bookingId;
     private User user;
